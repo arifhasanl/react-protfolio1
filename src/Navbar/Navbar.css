@@ -1,0 +1,21 @@
+.list ul li {
+position: relative;
+}
+.list ul li a{
+    font-size: 14px;
+    font-weight: bold;
+}
+.list ul li a::before{
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background-color: orange;
+    width: 0;
+    height: 3px;
+    transition: 1s;
+}
+.list ul li a:hover::before{
+    width: 100%;
+    color: orange;
+}

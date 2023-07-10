@@ -1,0 +1,7 @@
+.sumbmit-btn{
+    transition: 0.5s;
+}
+.sumbmit-btn:hover{
+    background-color: blue;
+
+}

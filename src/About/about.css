@@ -1,0 +1,8 @@
+.about-btn{
+    transition: 0.5s;
+    transform: translateX(0);
+}
+.about-btn:hover{
+    background-color: navy;
+    transform: translateX(1);
+}

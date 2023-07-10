@@ -1,0 +1,9 @@
+.section-title::before{
+    position:absolute;
+    content: '';
+     width: 5px;
+     height: 100%;
+     top: 0;
+     left: -12px;
+     background-color: orange;
+}
